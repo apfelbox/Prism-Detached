@@ -27,7 +27,7 @@ The basic procedure is:
 * `post`:  if you want to include a code piece of another post, you can explicitly specify the post id here
 
 
-### Support languages
+## Support languages
 
 Currently only the ones from the official repository
 
@@ -38,7 +38,7 @@ Currently only the ones from the official repository
 
 
 
-#### Q&A
+## Q&A
 
 > Why use custom tags?
 
