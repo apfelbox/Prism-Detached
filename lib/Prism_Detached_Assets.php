@@ -42,6 +42,7 @@ class Prism_Detached_Assets
     public function register ()
     {
         $this->registerCore();
+        $this->registerLineHighlight();
         $this->registerAutolinker();
         $this->registerShowInvisibles();
         $this->registerThemes();
@@ -67,6 +68,32 @@ class Prism_Detached_Assets
 
 
     /**
+     * Registers the "line highlighter" plugin
+     */
+    private function registerLineHighlight ()
+    {
+        // CSS
+        wp_register_style(
+            'prism-line-highlight',
+            $this->mainController->getRelativePluginUrl('vendor/prism/plugins/line-highlight/prism-line-highlight.css'),
+            array(),
+            '0.1',
+            'all'
+        );
+
+        // JavaScript
+        wp_register_script(
+            'prism-line-highlight',
+            $this->mainController->getRelativePluginUrl('vendor/prism/plugins/line-highlight/prism-line-highlight.min.js'),
+            array('prism'),
+            '0.1',
+            true
+        );
+    }
+
+
+
+    /**
      * Registers the "autolinker" plugin
      */
     private function registerAutolinker ()
@@ -75,7 +102,7 @@ class Prism_Detached_Assets
         wp_register_style(
             'prism-autolinker',
             $this->mainController->getRelativePluginUrl('vendor/prism/plugins/autolinker/prism-autolinker.css'),
-            array(''),
+            array(),
             '0.1',
             'all'
         );
@@ -101,7 +128,7 @@ class Prism_Detached_Assets
         wp_register_style(
             'prism-show-invisibles',
             $this->mainController->getRelativePluginUrl('vendor/prism/plugins/show-invisibles/prism-show-invisibles.css'),
-            array(''),
+            array(),
             '0.1',
             'all'
         );
@@ -163,10 +190,14 @@ class Prism_Detached_Assets
         wp_enqueue_script('prism');
         wp_enqueue_style($settings->getTheme());
 
+        // always load line highlighter
+        wp_enqueue_style('prism-line-highlight');
+        wp_enqueue_script('prism-line-highlight');
+
         if ($settings->getAutolinker())
         {
             wp_enqueue_script('prism-autolinker');
-            wp_enqueue_style('prism-autoloader');
+            wp_enqueue_style('prism-autolinker');
         }
 
         if ($settings->getShowInvisibles())

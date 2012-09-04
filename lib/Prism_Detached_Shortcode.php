@@ -56,7 +56,7 @@ class Prism_Detached_Shortcode
         }
 
         $tagAttributes = $this->getTagAttributes();
-        return '<pre><code' . $this->getTagAttributeString($tagAttributes) . '>' . esc_html($content) .  '</code></pre>';
+        return '<pre' . $this->getTagAttributeString($tagAttributes) . '><code>' . esc_html($content) .  '</code></pre>';
     }
 
 
