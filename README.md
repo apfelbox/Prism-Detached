@@ -1,6 +1,9 @@
 Prism Detached
 ==============
 
+You can find it in the official [WordPress Plugin Directory](http://wordpress.org/extend/plugins/prism-detached/)
+or install it directly via the plugins menu in the WordPress admin area.
+
 Integrates the [Prism Syntax Highlighting Library](https://github.com/LeaVerou/prism) in WordPress.
 
 
