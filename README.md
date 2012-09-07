@@ -49,16 +49,25 @@ Also, I personally, think it is more user-friendly.
 
 ## Screenshots
 ![Add the code as custom field and reference it in the wysiwyg editor via shortcode.](https://raw.github.com/apfelbox/Prism-Detached/master/screenshot-1.png)
+
 Add the code as custom field and reference it in the wysiwyg editor via shortcode.
 
+
 ![Code highlighting in the frontend](https://raw.github.com/apfelbox/Prism-Detached/master/screenshot-2.png)
+
 Code highlighting in the frontend
 
+
 ![You can also specify some lines, which should be marked](https://raw.github.com/apfelbox/Prism-Detached/master/screenshot-3.png)
+
 You can also specify some lines, which should be marked
 
+
 ![Code highlighting with marked lines in the frontend](https://raw.github.com/apfelbox/Prism-Detached/master/screenshot-4.png)
+
 Code highlighting with marked lines in the frontend
 
+
 ![Plugin options screen](https://raw.github.com/apfelbox/Prism-Detached/master/screenshot-5.png)
+
 Plugin options screen

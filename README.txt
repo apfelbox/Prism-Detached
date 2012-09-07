@@ -21,6 +21,8 @@ other texts and content, but they are added separately as custom fields and just
 
 Check *Other Notes* for usage documentation.
 
+The official development repository is [hosted on Github](https://github.com/apfelbox/Prism-Detached).
+
 
 == Installation ==
 
