@@ -8,6 +8,7 @@ Integrates the [Prism Syntax Highlighting Library](https://github.com/LeaVerou/p
 
 
 ## Usage
+
 First you should download and activate the plugin.
 
 
@@ -30,6 +31,7 @@ The basic procedure is:
 
 
 ## Supported languages
+
 Currently only the ones from the official repository
 
 * css
@@ -40,13 +42,11 @@ Currently only the ones from the official repository
 
 
 ## Q&A
+
 > Why use custom tags?
 
 The (wysiwyg) editor of WordPress is quite good in mangling in manually added code. This cannot happen with custom fields.
 Also, I personally, think it is more user-friendly.
-
-
-
 ## Screenshots
 ![Add the code as custom field and reference it in the wysiwyg editor via shortcode.](https://raw.github.com/apfelbox/Prism-Detached/master/screenshot-1.png)
 

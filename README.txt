@@ -4,7 +4,7 @@ Donate link: https://flattr.com/thing/870438/apfelbox-
 Tags: prism, syntax highlighting
 Requires at least: 3.4.0
 Tested up to: 3.4.1
-Stable tag: 1.1
+Stable tag: 1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -51,6 +51,9 @@ Also, I personally, think it is more user-friendly.
 
 
 == Changelog ==
+
+= 1.2 =
+* Updated the prism library to `34f0bd5247`
 
 = 1.1 =
 * Load line-highlight correctly
