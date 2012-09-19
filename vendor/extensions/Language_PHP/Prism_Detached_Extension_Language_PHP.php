@@ -13,7 +13,7 @@ class Prism_Detached_Extension_Language_PHP extends Prism_Detached_Extension_Bas
      */
     public function getName ()
     {
-        return "Language: PHP";
+        return "Language: PHP (experimental)";
     }
 
 
