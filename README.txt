@@ -4,7 +4,7 @@ Donate link: https://flattr.com/thing/870438/apfelbox-
 Tags: prism, syntax highlighting
 Requires at least: 3.4.0
 Tested up to: 3.4.1
-Stable tag: 1.2
+Stable tag: 1.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -52,6 +52,13 @@ Also, I personally, think it is more user-friendly.
 
 == Changelog ==
 
+= 1.3 =
+* Minor optical updates of the admin interface
+* Refactored nearly complete plugin
+* Added support for generic extensions
+* Added cached assets loader
+* Added support for experimental PHP plugin
+
 = 1.2 =
 * Updated the prism library to `34f0bd5247`
 
@@ -87,6 +94,12 @@ The basic procedure is:
 * `line`: highlighted lines (for syntax, check the [offical docs](http://prismjs.com/plugins/line-highlight/))
 * `line_offset`: the offset, with which the line numbering should start
 * `post`:  if you want to include a code piece of another post, you can explicitly specify the post id here
+
+
+= Cached Assets loader =
+The plugin includes (from v1.3 on) a cached assets loader, so that all needed assets are concatenated into
+one js and one css file to minimize the HTTP requests.
+To make use of the cached assets loader, just create a directory `/cache/` inside your plugin directory and make it writable for PHP.
 
 
 = Supported languages =
