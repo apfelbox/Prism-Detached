@@ -1,0 +1,1 @@
+.token.tab:not(:empty):before,.token.cr:before,.token.lf:before{color:#e0d7d1}.token.tab:not(:empty):before{content:'▸'}.token.cr:before{content:'␍'}.token.lf:before{content:'␊'}
