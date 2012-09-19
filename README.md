@@ -30,6 +30,12 @@ The basic procedure is:
 * `post`:  if you want to include a code piece of another post, you can explicitly specify the post id here
 
 
+### Cached Assets loader
+The plugin includes (from v1.3 on) a cached assets loader, so that all needed assets are concatenated into
+one js and one css file to minimize the HTTP requests.
+To make use of the cached assets loader, just create a directory `/cache/` inside your plugin directory and make it writable for PHP.
+
+
 ## Supported languages
 
 Currently only the ones from the official repository
