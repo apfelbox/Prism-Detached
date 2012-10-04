@@ -3,8 +3,8 @@ Contributors: apfelbox
 Donate link: https://flattr.com/thing/870438/apfelbox-
 Tags: prism, syntax highlighting
 Requires at least: 3.4.0
-Tested up to: 3.4.1
-Stable tag: 1.3
+Tested up to: 3.4.2
+Stable tag: 1.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -51,6 +51,9 @@ Also, I personally, think it is more user-friendly.
 
 
 == Changelog ==
+
+= 1.4 =
+* Fixed a compatibility problem with older PHP versions (< 5.4)
 
 = 1.3 =
 * Minor optical updates of the admin interface

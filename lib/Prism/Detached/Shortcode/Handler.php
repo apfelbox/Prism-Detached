@@ -122,7 +122,7 @@ class Prism_Detached_Shortcode_Handler
         add_shortcode('prism',
             function ($attributes)
             {
-                $shortCode = new self($attributes);
+                $shortCode = new Prism_Detached_Shortcode_Handler($attributes);
                 return $shortCode->handle();
             }
         );
