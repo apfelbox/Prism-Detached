@@ -16,20 +16,20 @@
 
     <h3 style="margin-top: 40px;">Prism Core Supported languages</h3>
     <ul class="ul-disc">
-        <li><code>bash</code></li>
-        <li><code>c</code></li>
-        <li><code>clike</code></li>
-        <li><code>coffeescript</code></li>
-        <li><code>cpp</code></li>
-        <li><code>css</code></li>
-        <li><code>groovy</code></li>
-        <li><code>java</code></li>
-        <li><code>javascript</code></li>
-        <li><code>markup</code></li>
-        <li><code>php</code></li>
-        <li><code>python</code></li>
-        <li><code>scss</code></li>
-        <li><code>sql</code></li>
+        <li><code>bash</code> - Bash/Shell script</li>
+        <li><code>c</code> - C programming language</li>
+        <li><code>clike</code> - C like (used internally)</li>
+        <li><code>coffeescript</code> - Coffeescript</li>
+        <li><code>cpp</code> - C++ programming language</li>
+        <li><code>css</code> - CSS</li>
+        <li><code>groovy</code> - Groovy</li>
+        <li><code>java</code> - Java</li>
+        <li><code>javascript</code> - JavaScript</li>
+        <li><code>markup</code> - (X)HTML</li>
+        <li><code>php</code> - PHP</li>
+        <li><code>python</code> - Python</li>
+        <li><code>scss</code> - Sassy CSS</li>
+        <li><code>sql</code> - SQL</li>
     </ul>
 
 
