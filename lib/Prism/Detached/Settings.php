@@ -46,6 +46,9 @@ class Prism_Detached_Settings
         'prism' => 'Default Theme',
         'prism-dark' => 'Dark',
         'prism-funky' => 'Funky',
+        'prism-okaidia' => 'Okaidia',
+        'prism-tomorrow' => 'Tomorrow',
+        'prism-twilight' => 'Twilight',
     );
 
 
