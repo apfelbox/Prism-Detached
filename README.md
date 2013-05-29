@@ -57,6 +57,18 @@ Only the ones from the official PrismJS Git repository
 
 
 
+## Supported languages
+
+Only the ones from the official PrismJS Git repository
+
+* Default
+* Dark
+* Funky
+* Okaida
+* Tomorrow
+* Twilight
+
+
 ## Q&A
 
 > Why use custom tags?

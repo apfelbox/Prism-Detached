@@ -58,6 +58,7 @@ Also, I personally, think it is more user-friendly.
 * Added new plugins: File Highlight, WebPlatform Docs
 * Added language-code descriptions
 * Added new languages: Bash (Unix Shell), C, C-like, Coffeescript, C++, Groovy, PHP, Python, Sassy CSS, and SQL
+* Added new themes: Okaida, Tomorrow, Twilight
 ** 1.5 update brought to you by JC John Sese-Cuneta (http://jcsesecuneta.com) **
 
 = 1.4 =
