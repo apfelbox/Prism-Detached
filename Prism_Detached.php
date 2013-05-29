@@ -7,7 +7,7 @@ Version: 1.5
 Author: Jannik Zschiesche
 Update: JC John Sese-Cuneta
 Author URI: http://apfelbox.net
-Update URI: http://jcsesecuneta.com/tome/labox/
+Update URI: http://jcsesecuneta.com
 License: GPL2
 */
 

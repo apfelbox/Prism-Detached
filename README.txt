@@ -3,8 +3,8 @@ Contributors: apfelbox
 Donate link: https://flattr.com/thing/870438/apfelbox-
 Tags: prism, syntax highlighting
 Requires at least: 3.4.0
-Tested up to: 3.4.2
-Stable tag: 1.4
+Tested up to: 3.5.1
+Stable tag: 1.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -35,7 +35,7 @@ The official development repository is [hosted on Github](https://github.com/apf
 
 = Why use custom tags? =
 
-The (wysiwyg) editor of WordPress is quite good in mangling in manually added code. This cannot happen with custom fields.
+The (RTE) editor of WordPress is quite good in mangling in manually added code.  This cannot happen with custom fields.
 Also, I personally, think it is more user-friendly.
 
 
@@ -51,6 +51,13 @@ Also, I personally, think it is more user-friendly.
 
 
 == Changelog ==
+
+= 1.5 =
+* Updated PrismJS to commit: 07c0f4f6b2
+* Added plugin descriptions
+* Added language-code descriptions
+* Added new languages: Bash (Unix Shell), C, C-like, Coffeescript, C++, Groovy, PHP, Python, Sassy CSS, and SQL
+** 1.5 update brought to you by JC John Sese-Cuneta (http://jcsesecuneta.com) **
 
 = 1.4 =
 * Fixed a compatibility problem with older PHP versions (< 5.4)
@@ -107,9 +114,19 @@ To make use of the cached assets loader, just create a directory `/cache/` insid
 
 = Supported languages =
 
-Currently only the ones from the official repository
+Only the ones from the official PrismJS repository
 
+* bash (Bash Unix Shell)
+* c
+* clike
+* coffeescript
+* cpp (C++)
 * css
+* groovy
 * java
 * javascript
-* markup
+* markup (like: xHTML, MathML, SVG, LaTeX, RSS, XML, OWL, etc.)
+* php
+* python
+* scss (Sassy CSS)
+* sql
