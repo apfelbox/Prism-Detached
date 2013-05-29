@@ -25,7 +25,7 @@
         <li><code>groovy</code> - Groovy</li>
         <li><code>java</code> - Java</li>
         <li><code>javascript</code> - JavaScript</li>
-        <li><code>markup</code> - (X)HTML</li>
+        <li><code>markup</code> - markup languages: (X)HTML, XML, MathML, TeX, LaTeX, XForms, SOAP, OWL, RDF/XML, CFML, Markdown, SVG, BBCode, Wiki, Atom, RSS, etc.</li>
         <li><code>php</code> - PHP</li>
         <li><code>python</code> - Python</li>
         <li><code>scss</code> - Sassy CSS</li>
