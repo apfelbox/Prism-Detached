@@ -3,9 +3,11 @@
 Plugin Name: Prism Syntax Highlighter (detached)
 Plugin URI: http://apfelbox.net
 Description: Includes the prism syntax highlighter in WordPress by using Custom Fields.
-Version: 1.4
+Version: 1.5
 Author: Jannik Zschiesche
+Update: JC John Sese Cuneta
 Author URI: http://apfelbox.net
+Update URI: http://jcsesecuneta.com
 License: GPL2
 */
 
@@ -24,7 +26,7 @@ class Prism_Detached
      *
      * @var string
      */
-    const PRISM_VERSION = '34f0bd5247';
+    const PRISM_VERSION = '07c0f4f6b2';
 
 
     /**
@@ -32,7 +34,7 @@ class Prism_Detached
      *
      * @var string
      */
-    const PLUGIN_VERSION = '1.4';
+    const PLUGIN_VERSION = '1.5';
 
 
     /**

@@ -86,6 +86,15 @@ abstract class Prism_Detached_Extension_Base
 
 
     /**
+     * Returns the description of the extension
+     *
+     * @return string
+     */
+    abstract public function getDesc ();
+
+
+
+    /**
      * Returns the JavaScript files of the extension.
      * The return value should be an array of relative paths to the files.
      *

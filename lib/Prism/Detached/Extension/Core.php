@@ -43,6 +43,18 @@ class Prism_Detached_Extension_Core extends Prism_Detached_Extension_Base
 
 
     /**
+     * Returns the name of the extension
+     *
+     * @return string
+     */
+    public function getDesc ()
+    {
+        return 'Prism Detached Core';
+    }
+
+
+
+    /**
      * Returns the defined JavaScripts
      *
      * @return string[]

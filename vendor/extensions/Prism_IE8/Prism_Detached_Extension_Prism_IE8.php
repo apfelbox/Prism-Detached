@@ -12,7 +12,19 @@ class Prism_Detached_Extension_Prism_IE8 extends Prism_Detached_Extension_Base
      */
     public function getName ()
     {
-        return "Plugin: IE8";
+        return 'Plugin: IE8 (work-in-progress from PrismJS source)';
+    }
+
+
+
+    /**
+     * Returns the name of the extension
+     *
+     * @return string
+     */
+    public function getDesc ()
+    {
+        return 'Adds basic IE8 support to Prism through a series of polyfills.';
     }
 
 
@@ -38,7 +50,7 @@ class Prism_Detached_Extension_Prism_IE8 extends Prism_Detached_Extension_Base
     public function getCss ()
     {
         return array(
-            "css/prism-ie8.min.css"
+            'css/prism-ie8.min.css'
         );
     }
 
@@ -52,7 +64,7 @@ class Prism_Detached_Extension_Prism_IE8 extends Prism_Detached_Extension_Base
     public function getJavascript ()
     {
         return array(
-            "js/prism-ie8.min.js"
+            'js/prism-ie8.min.js'
         );
     }
 }
