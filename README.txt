@@ -55,6 +55,7 @@ Also, I personally, think it is more user-friendly.
 = 1.5 =
 * Updated PrismJS to commit: 07c0f4f6b2
 * Added plugin descriptions
+* Added new plugins: File Highlight, WebPlatform Docs
 * Added language-code descriptions
 * Added new languages: Bash (Unix Shell), C, C-like, Coffeescript, C++, Groovy, PHP, Python, Sassy CSS, and SQL
 ** 1.5 update brought to you by JC John Sese-Cuneta (http://jcsesecuneta.com) **
