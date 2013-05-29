@@ -16,9 +16,9 @@
 
     <h3 style="margin-top: 40px;">Prism Core Supported languages</h3>
     <ul class="ul-disc">
-        <li><code>bash</code> - Bash/Shell script</li>
+        <li><code>bash</code> - Bash (Unix Shell) script</li>
         <li><code>c</code> - C programming language</li>
-        <li><code>clike</code> - C like (used internally)</li>
+        <li><code>clike</code> - C-like</li>
         <li><code>coffeescript</code> - Coffeescript</li>
         <li><code>cpp</code> - C++ programming language</li>
         <li><code>css</code> - CSS</li>
@@ -60,10 +60,11 @@
                 <?php foreach ($availableExtensions as $extension) : ?>
                 <tr>
                     <th scope="row">
-                        <label for="extension-<?php echo esc_attr($extension->getId()); ?>"><?php echo esc_html($extension->getName()); ?></label>
+                        <input type="checkbox" name="prism_detached_extensions[<?php echo esc_attr($extension->getId()); ?>]" id="extension-<?php echo esc_attr($extension->getId()); ?>" value="1"<?php if ($extension->isActive()) : ?> checked="checked"<?php endif; ?> />
+                        <label for="extension-<?php echo esc_attr($extension->getId()); ?>"><b><?php echo esc_html($extension->getName()); ?></b></label>
                     </th>
                     <td>
-                        <input type="checkbox" name="prism_detached_extensions[<?php echo esc_attr($extension->getId()); ?>]" id="extension-<?php echo esc_attr($extension->getId()); ?>" value="1"<?php if ($extension->isActive()) : ?> checked="checked"<?php endif; ?> />
+                        <?php echo $extension->getDesc(); ?>
                     </td>
                 </tr>
                 <?php endforeach; ?>

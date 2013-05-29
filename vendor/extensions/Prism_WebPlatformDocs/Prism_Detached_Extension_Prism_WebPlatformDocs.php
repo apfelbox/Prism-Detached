@@ -13,7 +13,30 @@ class Prism_Detached_Extension_Prism_WebPlatformDocs extends Prism_Detached_Exte
      */
     public function getName ()
     {
-        return "Plugin: WebPlatform Docs";
+        return 'Plugin: WebPlatform Docs (Beta from PrismJS source)';
+    }
+
+
+
+    /**
+     * Returns the name of the extension
+     *
+     * @return string
+     */
+    public function getDesc ()
+    {
+        return 'Makes tokens link to <a href="http://docs.webplatform.org" target="_blank">WebPlatform.org documentation</a>.  The links open in a new tab.
+            <p>Tokens that currently link to documentation:
+                <ol>
+                    <li>HTML, MathML and SVG tags</li>
+                    <li>HTML, MathML and SVG non-namespaced attributes</li>
+                    <li>(Non-prefixed) CSS properties</li>
+                    <li>(Non-prefixed) CSS @rules</li>
+                    <li>(Non-prefixed) CSS pseudo-classes</li>
+                    <li>(Non-prefixed) CSS pseudo-elements (starting with <code>::</code>)</li>
+                </ol>
+            </p>
+        ';
     }
 
 
@@ -41,7 +64,7 @@ class Prism_Detached_Extension_Prism_WebPlatformDocs extends Prism_Detached_Exte
     public function getCss ()
     {
         return array(
-            "css/prism-wpd.min.css"
+            'css/prism-wpd.min.css'
         );
     }
 
@@ -55,7 +78,7 @@ class Prism_Detached_Extension_Prism_WebPlatformDocs extends Prism_Detached_Exte
     public function getJavascript ()
     {
         return array(
-            "js/prism-wpd.min.js"
+            'js/prism-wpd.min.js'
         );
     }
 }
