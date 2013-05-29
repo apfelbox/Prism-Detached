@@ -5,7 +5,7 @@ Plugin URI: http://apfelbox.net
 Description: Includes the prism syntax highlighter in WordPress by using Custom Fields.
 Version: 1.5
 Author: Jannik Zschiesche
-Update: JC John Sese-Cuneta
+Update: JC John Sese Cuneta
 Author URI: http://apfelbox.net
 Update URI: http://jcsesecuneta.com
 License: GPL2

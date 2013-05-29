@@ -57,7 +57,7 @@ Only the ones from the official PrismJS Git repository
 
 
 
-## Supported languages
+## Supported themes
 
 Only the ones from the official PrismJS Git repository
 
