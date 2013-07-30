@@ -38,21 +38,45 @@ To make use of the cached assets loader, just create a directory `/cache/` insid
 
 ## Supported languages
 
-Currently only the ones from the official repository
+Only the ones from the official PrismJS Git repository
 
+* bash (Bash Unix Shell)
+* c
+* clike
+* coffeescript
+* cpp (C++)
 * css
+* groovy
 * java
 * javascript
-* markup
+* markup (like: xHTML, MathML, SVG, LaTeX, RSS, XML, OWL, etc.)
+* php
+* python
+* scss (Sassy CSS)
+* sql
 
+
+
+## Supported themes
+
+Only the ones from the official PrismJS Git repository
+
+* Default
+* Dark
+* Funky
+* Okaida
+* Tomorrow
+* Twilight
 
 
 ## Q&A
 
 > Why use custom tags?
 
-The (wysiwyg) editor of WordPress is quite good in mangling in manually added code. This cannot happen with custom fields.
+The (RTE) editor of WordPress is quite good in mangling in manually added code.  This cannot happen with custom fields.
 Also, I personally, think it is more user-friendly.
+
+
 ## Screenshots
 ![Add the code as custom field and reference it in the wysiwyg editor via shortcode.](https://raw.github.com/apfelbox/Prism-Detached/master/screenshot-1.png)
 

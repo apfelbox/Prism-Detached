@@ -13,7 +13,19 @@ class Prism_Detached_Extension_Prism_ShowInvisibles extends Prism_Detached_Exten
      */
     public function getName ()
     {
-        return "Plugin: Show Invisibles";
+        return 'Plugin: Show Invisibles';
+    }
+
+
+
+    /**
+     * Returns the name of the extension
+     *
+     * @return string
+     */
+    public function getDesc ()
+    {
+        return 'Show hidden characters such as tabs and line breaks.';
     }
 
 
@@ -41,7 +53,7 @@ class Prism_Detached_Extension_Prism_ShowInvisibles extends Prism_Detached_Exten
     public function getCss ()
     {
         return array(
-            "css/prism-show-invisibles.min.css"
+            'css/prism-show-invisibles.min.css'
         );
     }
 
@@ -55,7 +67,7 @@ class Prism_Detached_Extension_Prism_ShowInvisibles extends Prism_Detached_Exten
     public function getJavascript ()
     {
         return array(
-            "js/prism-show-invisibles.min.js"
+            'js/prism-show-invisibles.min.js'
         );
     }
 }
