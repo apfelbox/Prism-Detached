@@ -73,14 +73,30 @@ Only the ones from the official PrismJS Git repository
 
 > Why use custom tags?
 
-The (RTE) editor of WordPress is quite good in mangling in manually added code.  This cannot happen with custom fields.
+The (rich text) editor of WordPress is quite good in mangling in manually added code.  This cannot happen with custom fields.
 Also, I personally, think it is more user-friendly.
 
 
-## Screenshots
-![Add the code as custom field and reference it in the wysiwyg editor via shortcode.](https://raw.github.com/apfelbox/Prism-Detached/master/screenshot-1.png)
+> Will my code snippets be searchable with the common WordPress search?
 
-Add the code as custom field and reference it in the wysiwyg editor via shortcode.
+No. Since the code snippets are not in the actual post content, but separately in the custom fields, the default
+WordPress search won't find them. [You can make your custom fields searchable, though.](http://wordpress.org/support/topic/include-custom-field-values-in-search)
+
+
+> Can I add my own extensions?
+
+Yes. Just read through [the manual](https://github.com/apfelbox/Prism-Detached/wiki/Creating-A-Custom-Extension).
+
+
+> What will happen to my custom extensions, if I update the plugin using the WordPress plugin update function?
+
+WordPress will remove them. WordPress completely removes the old extension directory and recreates it with the new plugin files. So make a backup of your custom extensions before updating!
+
+
+## Screenshots
+![Add the code as custom field and reference it in the rich text editor via shortcode.](https://raw.github.com/apfelbox/Prism-Detached/master/screenshot-1.png)
+
+Add the code as custom field and reference it in the rich text editor via shortcode.
 
 
 ![Code highlighting in the frontend](https://raw.github.com/apfelbox/Prism-Detached/master/screenshot-2.png)
