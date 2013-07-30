@@ -1,6 +1,5 @@
 === Plugin Name ===
 Contributors: apfelbox
-Donate link: https://flattr.com/thing/870438/apfelbox-
 Tags: prism, syntax highlighting
 Requires at least: 3.4.0
 Tested up to: 3.4.2
